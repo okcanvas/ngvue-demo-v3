@@ -1,0 +1,28 @@
+{
+  "name": "demo",
+  "private": true,
+  "version": "0.1.18",
+  "scripts": {
+    "dev": "vite",
+    "clean": "rimraf dist/",
+    "build": "pnpm run clean && vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@bizbee/ngvue3": "workspace:*",
+    "angular": "^1.6.9",
+    "highlight.js": "^10.3.2",
+    "vue": "^3.2.25",
+    "vue3-highlightjs": "^1.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "config": "workspace:*",
+    "rimraf": "^3.0.2",
+    "sass": "^1.51.0",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.16",
+    "vue-tsc": "^0.34.7"
+  }
+}
